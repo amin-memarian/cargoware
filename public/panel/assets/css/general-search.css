@@ -1,0 +1,76 @@
+.card.search-container {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateX(0);
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.4),
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.4)
+    );
+    backdrop-filter: blur(15px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+
+.custom-card-body {
+    width: 100%;
+    z-index: 10;
+}
+
+.search-container {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.search-result-container {
+    max-width: 100%;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: auto;
+    box-sizing: border-box;
+    max-height: 400px;
+}
+
+.search-result-header,
+.search-result-table {
+    max-width: 100%;
+    width: 100%;
+    overflow-x: auto;
+    box-sizing: border-box;
+}
+
+.search-result-table table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+
+.search-result-table table th,  .search-result-table table td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+#search-close-button {
+    transform: translate(-50%, -50%); !important;
+}
+
+
+

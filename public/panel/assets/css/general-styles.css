@@ -1,0 +1,93 @@
+.add-row-button:hover {
+    scale: 1.1;
+}
+
+.add-row-button {
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.delete-row-button:hover {
+    scale: 1.1;
+}
+
+.delete-row-button {
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.modal.show .modal-dialog {
+    top: 100px;
+    right: 50%;
+    transform: translate(50%, 0%);
+}
+
+
+.custom-title { /* Apply on h3 */
+    text-align: center !important;
+    font-size: 1.5rem !important;
+    color: #000 !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    margin: 0 !important;
+}
+
+.custom-label {
+    display: block !important;
+    margin-bottom: 9px !important;
+    color: #eb993b !important;
+    vertical-align: middle !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
+    word-spacing: -1px !important;
+}
+
+.custom-elements {
+    width: 100% !important;
+    padding: 15px 25px !important;
+    border: 1px solid #0000002b !important;
+    border-radius: 15px !important;
+}
+
+.custom-select {
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+}
+
+.custom-choose-file {
+    width: 100% !important;
+    border: 1px solid #d4d4d4 !important;
+    border-radius: 15px !important;
+    color: #858585 !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    display: flex !important;
+    align-items: center !important;
+    padding: 14px 25px !important;
+    margin: 0 !important;
+    margin-top: 9px !important;
+}
+.custom-select option,
+.custom-select:not(:checked),
+.custom-elements input::placeholder {
+    color: #434343 !important;
+    font-size: 14px !important;
+}
+.custom-modal .modal-content {
+    border-radius: 45px; !important;
+}
+.custom-modal .modal-header,
+.custom-modal .modal-footer {
+    border: none !important;
+}
+.divider-line {
+    height: 1px !important;
+    background: #d9e2e6;
+}

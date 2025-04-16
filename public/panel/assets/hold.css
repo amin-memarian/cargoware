@@ -1,0 +1,66 @@
+
+table.cost-details-table {
+    table-layout: fixed;
+    width: 100%;
+    height: 39.9rem;
+    border: 1px solid var(--dark-blue);
+}
+
+table.cost-details-table {
+     table-layout: fixed;
+     width: 100%;
+     height: 40.4rem;
+     border: 1px solid var(--dark-blue);
+ }
+
+
+table.cost-details-table tr {
+    display: table;
+    width: 100%;
+    height: 4.5rem;
+}
+
+
+table.cost-details-table tbody {
+    display: block;
+    width: 100%;
+    height: 31.5rem;
+}
+
+
+table.cost-details-table tfoot td:nth-child(1) {
+    width: 27.25rem;
+}
+
+
+tfoot td:nth-child(2) {
+    width: 14.1rem !important;
+}
+
+
+.height-110 {
+    height: 8%;
+    max-height: 8%;
+}
+
+table.cost-details-table tfoot tr {
+    height: 6rem;
+}
+
+
+table.cost-details-table tfoot td {
+    font-size: 155% !important;
+    font-weight: 900;
+}
+
+
+.border-x-blue {
+    border: 1px solid var(--dark-blue);
+    border-right: 0px !important;
+    border-left: 0px !important;
+}
+
+
+table.cost-details-table .border-left-blue.fs-3 {
+    width: 14.15rem !important;
+}

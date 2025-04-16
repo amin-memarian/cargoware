@@ -1,0 +1,140 @@
+/* root */
+.border-20{
+    border-radius: 20px !important;
+}
+.border-25{
+    border-radius: 25px !important;
+}
+.border-15{
+    border-radius: 15px !important;
+}
+.border-12{
+    border-radius: 12px !important;
+}
+label.fast-estimate-radio-box {
+    width: calc(10% - var(--variable-width)) !important;
+}
+/* end root */
+
+
+/* progress bar */
+.steps {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.step {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 2px solid #ACACA6;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 1s;
+    position: relative;
+}
+.step.selected {
+    border: 2px solid #0472b3;
+}
+.step.completed {
+    border: 2px solid #0472b3;
+    background: orange;
+}
+.progress {
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    border-bottom: 2px solid #0472b3;
+    z-index: 0;
+    background: #f4f6fd;
+}
+.percent {
+    position: absolute;
+    width: 7%;
+    height: 100%;
+    border-bottom: 2px solid #0472b3;
+    z-index: 1;
+    transition: width 1s;
+}
+.step p {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, 70%);
+    color: #1e3665;
+    font-size: 12px;
+    text-wrap: nowrap;
+}
+/* end progress bar */
+
+/* orders */
+.body-order .col-4 {
+    background: rgb(38,102,139);
+    background: linear-gradient(125deg, rgba(38,102,139,1) 0%, rgba(19,55,75,1) 100%);
+    border-radius: 20px !important;
+    overflow: hidden;
+    width: calc(33% - 15px);
+    height: max-content;
+}
+.body-order table {
+    margin-bottom: -2px !important;
+}
+.body-order  td {
+    padding: 1.4em 2.4em 1.4em 2.4em !important;
+}
+.body-order tr:nth-child(even) {
+    background: #eef7fc !important;
+}
+.body-order tr {
+    background: #ffffff !important;
+}
+.body-order tr {
+    color: #141414 !important;
+    font-size: 14px;
+}
+
+.body-order tr td:nth-child(odd) {
+    text-align: right !important;
+}
+.body-order tr td:nth-child(even) {
+    text-align: left !important;
+}
+
+.body-order tr:nth-child(even) {
+    background: #eef7fc !important;
+}
+.body-order .col-4 button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0px !important;
+    border-radius: 12px;
+}
+.body-order {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+/* funcationallity */
+.btn svg {
+    transition: transform 0.3s ease;
+}
+/* responsive */
+@media (max-width: 1320px) and (min-width: 950px) {
+    .body-order .col-4 {
+        width: calc(50% - 10px);
+    }
+}
+@media only screen and (max-width: 773px) {
+    .body-order .col-4 {
+        width: 100%;
+    }
+    .body-order {
+        flex-direction: column;
+    }
+}
+
+/* end orders */
